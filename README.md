@@ -16,6 +16,8 @@ Step 1. Create a diagram of the process on draw.io. Helps user to visualize the 
 Step 2. Download Virtual Box and Create a VM with Window's 10 iso image file. Proceed to the Virtual Machine and download Sysmon on the VM. 
 ![step 2](https://github.com/user-attachments/assets/4b8b33c7-1560-4156-88bb-6c7ff58640e1)
 
-Step 3. 
+Step 3. On virtual machine create an account with digital ocean and create a Digital Ocean droplet. Create a firewall and specify rules and modify inbound traffic to users Virtual Machine IP. 
+![step 3a](https://github.com/user-attachments/assets/f7cf1162-6230-4f6e-967f-c04dbb821377)
+![step 3b](https://github.com/user-attachments/assets/cb79e9d6-601c-4ff2-b35f-59ef26009a4d)
 
 
