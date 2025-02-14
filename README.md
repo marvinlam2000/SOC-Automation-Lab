@@ -20,4 +20,12 @@ Step 3. On virtual machine create an account with digital ocean and create a Dig
 ![step 3a](https://github.com/user-attachments/assets/f7cf1162-6230-4f6e-967f-c04dbb821377)
 ![step 3b](https://github.com/user-attachments/assets/cb79e9d6-601c-4ff2-b35f-59ef26009a4d)
 
+Step 4. Download and install Wazuh. Use ssh on putty to perfom the installation process. Use a secure connection method to login to droplet's IP address in a new tab.
+![step 4a](https://github.com/user-attachments/assets/3bc4eaed-554f-4ef2-a871-cbf43dab3de4)
+![step 4b](https://github.com/user-attachments/assets/bfa08996-de4f-4379-9d0a-437280a329a4)
+
+Step 5. Create a new droplet and make sure the firewall created earlier is connected to the droplet the user just created. The droplet I created is "thehive". Installed Java, Cassandra, ElasticSearch, and theHive in putty.
+![step 5a](https://github.com/user-attachments/assets/39581a8d-5e85-41ca-bf63-938fcaa6ac25)
+![Step 5b](https://github.com/user-attachments/assets/429d12df-885a-4927-bf69-43c2f86642a8)
+
 
