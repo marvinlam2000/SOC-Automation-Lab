@@ -44,4 +44,24 @@ Step 8. Go to windows security and create an exclusion before downloading Mimika
 Step 9. The file mimikatz is now a part of the alerts. I used Windows powershell to execute the file then Wazuh alerts was able to pick up some mimikatz logs under the "wazuh archives" alerts. 
 ![step 9](https://github.com/user-attachments/assets/4fe8c518-aeb5-4ece-8349-9d1b98f52d6f)
 
-Step 10. 
+Step 10. Create an account with Shuffler.io and create a webhook. Integrate the custom webhook into the Wazuh manager and configure the webhook to trigger alerts of ID instead of levels. Make sure to restart the Wazuh manager service everytime there is a change. 
+![step 10a](https://github.com/user-attachments/assets/53b6b39f-957f-40d0-b431-cb6e0df17fc0)
+![step 10b](https://github.com/user-attachments/assets/4887e9d7-d5b5-4e3a-a462-10e30c9c1192)
+![step 10c](https://github.com/user-attachments/assets/457625a8-1dd6-47c0-a040-a39168ae3605)
+
+Step 11. Create an alert on theHive so that the user can connect the alerts received to forward them to an email. It allows the users to filter specifically what they are looking for relating to the alert.
+![step 11a](https://github.com/user-attachments/assets/b7ce2783-52b9-46f4-bad7-98e628261b5f)
+![step 11b](https://github.com/user-attachments/assets/0a2a7dcd-67e0-47ca-9cd2-c9e796903fee)
+
+
+
+
+
+
+
+
+
+
+
+
+
